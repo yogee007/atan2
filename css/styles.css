@@ -1,0 +1,13 @@
+body { margin: 0; padding: 0; background: #000; color: #fff; font-weight: bold; font-family: arial; text-align: center; }
+#main { background: #000; width: 300px; height: 335px; position: relative; }
+#main-header { background: #e50706 url(../img/ra-header.jpg) no-repeat top left; height: 35px; text-indent: -9000000px; }
+#music-info { position: absolute; bottom: 0; width: 100%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; padding: 0 5px; background: rgba(0, 0, 0, 0.7); }
+#artist-title { margin: 0; font: normal 19px Helvetica, arial; text-overflow: ellipsis; overflow: hidden; padding: 3px 5px 0; }
+#music-title { margin: 0 0 5px; font: normal 14px Helvetica, arial; padding: 2px 5px 0; }
+#album-cover { background: #000 url(../img/app-bcgrnd.jpg) no-repeat top left; width: 300px; height: 300px; margin: 0 auto; position: absolute; top: 35px; }
+#controls { background: #000; -webkit-transition: opacity .2s ease-in-out; transition: opacity .2s ease-in-out; margin: 125px auto 0; width: 32px; opacity: 0; height: 32px; text-indent: -9000000px; border: none; }
+#controls.play { background-image: url(../img/icons/btn-play.png); }
+#controls.pause { background-image: url(../img/icons/btn-pause.png); }
+#main:hover #controls { opacity: 1; }
+
+button:focus { outline: none; border: none; }
